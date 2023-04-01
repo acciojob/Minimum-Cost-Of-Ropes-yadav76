@@ -10,6 +10,8 @@ function calculateMinCost() {
 		inputArr[i] = Number(inputArr[i]);
 	}
 
+	if (inputArr.length ==1) cost = inputArr[0];
+
 	// Now sort the array
 	inputArr.sort(function(a,b) {return a-b});
 
