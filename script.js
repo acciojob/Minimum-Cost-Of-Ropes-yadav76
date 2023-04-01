@@ -25,4 +25,6 @@ function calculateMinCost() {
 	}
 
 	//alert(inputArr);
+	// Now show result on screen
+	document.querySelector("#result").textContent = cost;
 }  
